@@ -633,11 +633,11 @@ Eine Vermutung/Annahme ist dann als wissenschaftliche Hypothese zu verstehen wen
 Wenn sie...
 1. ...sich auf reale Sachverhalte bezieht, die empirisch untersuchbar sind. (**Empirie**)
 
-2. ...allgemein gültig ist und über den Einzelfall bzw. ein singuläres Ereignis hinausgeht (**All-Satz**)
+2. ...allgemein gültig ist und über den Einzelfall bzw. ein singuläres Ereignis hinausgeht. (**All-Satz**)
 
-3. ...zumindest implizit die Form eines Konditionalsatzes hat (**wenn-dann, je-desto**)
+3. ...zumindest implizit die Form eines Konditionalsatzes hat. (**wenn-dann, je-desto**)
 
-4. ...durch Erfahrungen potenziell widerlegbar ist (**Falsifizierbarkeit**)
+4. ...durch Erfahrungen potenziell widerlegbar ist. (**Falsifizierbarkeit**)
 
 5. ...(theoretisch begründbar ist)
 
@@ -654,7 +654,7 @@ class: top, left
 
 * Je schöner das Wetter, desto besser die Stimmung
 
-* Buben und Mädchen lesen unterschiedlich viel in ihrer Freizeit
+* Jungen und Mädchen lesen unterschiedlich viel in ihrer Freizeit
 
 Behauptungen erfüllen alle genannten Kriterien: sind daher Hypothesen
 ]
@@ -697,7 +697,7 @@ $\rightarrow$ Kann-Sätze sind nicht falsifizierbar
 
 $\rightarrow$ kein All-Satz, nicht falsifizierbar
 
-* SchülerInnen aus Gymnasien zeigen gute Leistungen
+* Schüler:innen aus Gymnasien zeigen gute Leistungen
 
 $\rightarrow$ Wenn-dann Struktur nicht gegeben, daher nicht
 falsifizierbar
@@ -710,7 +710,7 @@ class: top, left
 
 * Die Konzentrationsfähigkeit hängt mit der Blutalkoholkonzentration zusammen.
 
-* Positive Verstärkung durch Lehrer/innen kann zu guten Leistungen bei Schüler/innen führen.
+* Positive Verstärkung durch Lehrer:innen kann zu guten Leistungen bei Schüler:innen führen.
 
 * Positives Feedback beeinflusst die Arbeitsleistung.
 
@@ -726,7 +726,7 @@ class: top, left
 
 $\rightarrow$ JA
 
-* Positive Verstärkung durch Lehrer/innen kann zu guten Leistungen bei Schüler/innen führen.
+* Positive Verstärkung durch Lehrer:innen kann zu guten Leistungen bei Schüler:innen führen.
 
 $\rightarrow$ NEIN
 
@@ -746,13 +746,13 @@ class: top, left
 
 Je nach Erkenntnisstand kann eine ungerichtete oder eine gerichtete Hypothese formuliert werden.
 
-**ungerichtete Hypothese:**
+**Ungerichtete Hypothese:**
 
 Die Konzentrationsfähigkeit hängt mit der Blutalkoholkonzentration zusammen.
 
 $\rightarrow$ Eher wenig theoretisches Vorwissen.
 
-**gerichtete Hypothese:**
+**Gerichtete Hypothese:**
 
 Je höher die Blutalkoholkonzentration, desto niedriger die Konzentrationsfähigkeit.
 
@@ -774,7 +774,7 @@ class: top, left
 
 * In der Forschung hofft man oft, dass die $H_1$ zufrifft (Hier steckt der angenommene Effekt drin)
 
-* Man versucht **"Die $H_0$ zu verwerfen"** (Hypothesentest kommt später)
+* Man versucht, **"Die $H_0$ zu verwerfen"** (Hypothesentest kommt später)
 
 ---
 class: top, left
@@ -912,10 +912,6 @@ Variablen haben im empirischen Forschungskontext unterschiedliche funktionale Be
 
 * Kontrollvariable
 
-* Moderatorvariable
-
-* Mediatorvariable
-
 ---
 class: top, left
 ### Variablen
@@ -970,54 +966,11 @@ class: top, left
 
 * Störvariable deren Ausprägungen erhoben (gemessen) wurde 
 
-* Einfluss kann kontrolliert wird (z.B. mittels statistischer Methoden)
+* Einfluss kann kontrolliert werden (z.B. mittels statistischer Methoden)
 
 .center[
 ```{r eval = TRUE, echo = F, out.width = "500px"}
 knitr::include_graphics("bilder/Kontrollvariable.png")
-```
-]
----
-class: top, left
-### Variablen
-
-#### Moderatorvariable
-
-* **Moderator** verändert den Einfluss der UV auf die AV
-
-* Moderationsanalyse prüft Interaktionen
-
-* Frage: Variiert der Effekt von UV auf AV in Abhängigkeit einer weiteren Variable
-
-**Beispiel:**
-
-Schlafmitteldosis (**UV**) erhöht die Schlafdauer (**AV**); Straßenlärm (**Moderator**) wirkt zusätzlich auf die **AV**
-
-.center[
-```{r eval = TRUE, echo = F, out.width = "500px"}
-knitr::include_graphics("bilder/Moderation.png")
-```
-]
----
-class: top, left
-### Variablen
-
-#### Mediatorvariable
-
-* **Mediator** vermittelt (**mediiert**) den Einfluss der **UV** auf die **AV**
-* **Indirekter Effekt:**  **UV ** beeinflusst  **Mediator**, dies führt zur einem Effekt des  **Mediators ** auf  **AV **
-* **Direkter Effekt:** Effekt von **UV** auf **AV** (in Anwesenheit des Mediators)
-* **Keine Mediation:** indirekter Effekt nicht signifikant
-* **Partielle Mediation:** indirekter Effekt signifikant und direkter Effekt auch signifikant
-* **Totale Mediation:** indirekter Effekt signifikant und direkter Effekt nicht mehr signifikant.
-
-**Beispiel:**
-
-Schulnote (**UV**) beeinflusst Selbstwertgefühl (**Mediator**); Selbstwertgefühl (**Mediator**) beeinflusst Lebenszufriedenheit **AV**
-
-.center[
-```{r eval = TRUE, echo = F, out.width = "500px"}
-knitr::include_graphics("bilder/Mediation.png")
 ```
 ]
 
@@ -1049,7 +1002,7 @@ class: top, left
 
 * **Repräsentativität:** Stichprobe ist der Population in entscheidenden Charakteristika möglichst ähnlich
 
-* je repräsentativer, um so gesicherter die **Verallgemeinerung** auf die Population
+* je repräsentativer, desto gesicherter die **Verallgemeinerung** auf die Population
 ]
 
 ---
@@ -1069,7 +1022,14 @@ class: top, left
 **Beispiel:**
 
 Daten: 
-1, 23, 5, 6, 7, 8, 4, 43, 4, 5, 6, 5, 43, 34, 20, 6, 5, 34, 5, 6, 7, 7, 5, 4, 5, 3, 4, 5, 54, 43, 5, 54, 3, 4, 5, 5
+```{r echo=FALSE}
+d = c(1, 23, 5, 6, 7, 8, 4, 43, 4, 5, 6, 5, 43, 34, 20, 6, 5, 34, 5, 6, 7, 7, 5, 4, 5, 3, 4, 5, 54, 43, 5, 54, 3, 4, 5, 5)
+df = as.data.frame(d)
+df = as.data.frame(t(df))
+rownames(df) = NULL
+kable(df[,], col.names = NULL)
+```
+
 
 .center[
 $\downarrow$
@@ -1123,21 +1083,21 @@ class: top, left
 class: top, left
 ### Inferenzstatistik
 
-#### Beispiele
+#### Beispiele:
 
-* Binomialtest: Auftretenshäufigkeit
+* Binomialtest: Auftretenshäufigkeit $\rightarrow$ 1. Semester
 
-* $\chi^2$-Test: Unterschiede in Verteilungen
+* $\chi^2$-Test: Unterschiede in Verteilungen $\rightarrow$ 1. Semester
 
-* unabhängiger t-Test: Unterschiede in Gruppenmittelwerten
+* unabhängiger t-Test: Unterschiede in Gruppenmittelwerten $\rightarrow$ 1. Semester
 
-* abhängiger t-Test: Unterschiede in Mittelwerten zwischen Zeitpunkten
+* abhängiger t-Test: Unterschiede in Mittelwerten zwischen Zeitpunkten $\rightarrow$ 1. Semester
 
-* F-Test (ANOVA): Unterschiede in Varianzen
+* Korrelation: Zusammenhänge $\rightarrow$ 1. Semester
 
-* Korrelation: Zusammenhänge
+* F-Test (ANOVA): Unterschiede in Varianzen $\rightarrow$ 2. Semester
 
-* Regression: Vorhersagen
+* Regression: Vorhersagen $\rightarrow$ 2. Semester
 
 ---
 class: top, left
