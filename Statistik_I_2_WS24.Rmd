@@ -607,7 +607,7 @@ class: top, left
 
 ```{r echo = F}
 df = data.frame(Beispiel = c("Wohnorte in Deutschland", 
-                             "Hotelbewertung auf einer Skala von 1 bis 5", 
+                             "Hotelbewertung auf einer Skala von 1 bis 5 (Likert-Skala von sehr schlecht bis sehr gut)", 
                              "Religionsbekenntnis", 
                              "CO2-Ausstoss im Jahr",
                              "Motivationsscore von Arbeitnehmern",
@@ -615,7 +615,7 @@ df = data.frame(Beispiel = c("Wohnorte in Deutschland",
                              "Telefonnummern von Befragten",
                              "Pflegestufe eines Patienten",
                              "Wohnfläche in m2",
-                             "Arbeitszufriedenheit auf einer Skala von 1 bis 4"),
+                             "Arbeitszufriedenheit auf einer Skala von 1 bis 4 (Likert-Skala von sehr unmotiviert bis sehr motiviert)"),
                 Skalenniveau = c("Nominalskala",
                                  "Ordinalskala",
                                  "Nominalskala",
