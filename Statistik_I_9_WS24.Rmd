@@ -664,7 +664,7 @@ class: top, left
 
 $$r_s={}1-\frac{6 \cdot \displaystyle \sum_{i=1}^{n}d^2_i}{N \cdot (N^2 - 1)}$$
 
-$$r_s={}1-\frac{6 \cdot [2^2 + 0 + 2^2 +... + (-1)^2]}{10 \cdot (10^2 - 1)}=1-\frac{6 \cdot 204}{990}= 0.79$$
+$$r_s={}1-\frac{6 \cdot [2^2 + 0 + 2^2 +... + (-1)^2]}{10 \cdot (10^2 - 1)}=1-\frac{6 \cdot 34}{990}= 0.79$$
 
 * Die Ranglisten der Frauen und Männer korrelieren also relativ stark miteinander.
 

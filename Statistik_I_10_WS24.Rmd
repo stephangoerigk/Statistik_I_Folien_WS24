@@ -75,7 +75,7 @@ class: top, left
 
 **Voraussetzungen bisher gelernter Tests:**
 
-* Wir kennen nun Hypothesentests für alle Kombinationen aus numerischen vs. kategorialen UVs
+* Viele Hypothesentests nutzen Kombinationen aus numerischen vs. kategorialen UVs
 
 ```{r echo=FALSE}
 d = data.frame(
@@ -231,13 +231,14 @@ class: top, left
 ```{r}
 table(data$Behandlungserfolg, data$Behandlung)
 ```
+]
 
 **Relative Häufigkeiten (%):**
 
+.code80[
 ```{r}
 prop.table(table(data$Behandlungserfolg, data$Behandlung))
 ```
-
 ]
 ]
 .pull-right[
@@ -290,28 +291,6 @@ knitr::kable(data,
                   html_font = "Times New Roman")
 ```
 ]
-
----
-class: top, left
-### Verfahren für Nominaldaten
-
-#### Hypothesentests für Nominaldaten
-
-Wir werden 2 Arten von Tests kennenlernen:
-
-**1. $\chi^2$-Tests**
-  
-  * Analyse von Häufigkeiten
-  * Aussagen über ein mehr oder weniger einer bestimmten Eigenschaft
-  * Ziel: Analyse der Häufigkeitsverteilung
-  * Logik: Hypothesentest ähnlich t-Tests und ANOVAs
-  * $H_1:$ "Es gibt Unterschiede in der **Verteilung** der Kategorien."
-
-**2. Logistische Regression (nächste Einheit)**
-  * Regression mit kategorialer AV
-  * Ziel: Vorhersage der Wahrscheinlichkeit zu einer Kategorie zu gehören
-  * Logik: ähnlich einfacher/multipler Regression
-  * $H_1:$ "UV kann die **Gruppenzugehörigkeit** (AV) signifikant vorhersagen."
 
 ---
 class: top, left
