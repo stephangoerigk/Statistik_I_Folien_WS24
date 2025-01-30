@@ -618,7 +618,7 @@ class: top, left
 
 .pull-left[
 
-* Eine Gruppe aus Frauen und Männern sollen $N=10$ Filmedanach bewerten, wie lustig sie sind. 
+* Eine Gruppe aus Frauen und Männern sollen $N=10$ Filme danach bewerten, wie lustig sie sind. 
 
 * Dafür sollen die Filme in eine Rangreihe (Platz 1-10) gebracht werden.
 
