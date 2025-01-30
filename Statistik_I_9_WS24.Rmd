@@ -399,9 +399,9 @@ Beispiel: Labor- vs. Feld
 Einteilung der Größe des Effekts (Cohen, 1992):
 
 ```{r echo = F}
-d = data.frame("r" = c("|>0.1|",
-                       "|>0.3|",
-                       "|>0.5|"),
+d = data.frame("r" = c(">0.1 oder < -0.1",
+                       ">0.3 oder < -0.3",
+                       ">0.5 oder < -0.5"),
                Interpretation = c("kleiner Effekt",
                                   "mittlerer Effekt",
                                   "großer Effekt"))

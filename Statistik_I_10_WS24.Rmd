@@ -64,7 +64,7 @@ class: middle, left
 <br><br><br><br><br><br><br>
 # Statistik I
 ***
-### Einheit 10: Verfahren für Nominaldaten - $\chi-$Test
+### Einheit 10: Verfahren für Nominaldaten - $\chi^2-$Test
 ##### `r format(as.Date(data.frame(readxl::read_excel("Modul Quantitative Methoden I_Termine.xlsx"))$Datum), "%d.%m.%Y")[10]` | Prof. Dr. Stephan Goerigk
 
 ---
@@ -598,8 +598,8 @@ d = data.frame(
   Frauen = c(
     "$101$",
    "$324 \\cdot 0.25= 81$",
-   "$101 - 81 = -20$",
-   "$-20^2=400$",
+   "$101 - 81 = 20$",
+   "$20^2=400$",
    "$\\frac{400}{81}=4.94$"
   ),
   Männer = c(
